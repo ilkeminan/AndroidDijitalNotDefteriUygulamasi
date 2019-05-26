@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityNotEkle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonNotOnayla"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/onayla"
+            app:srcCompat="@drawable/onayla" />
+
+        <Switch
+            android:id="@+id/switchHatirlatmaNotEkle"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/hatirlatma" />
+
+        <Switch
+            android:id="@+id/switchOncelikNotEkle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/oncelik" />
+
+        <ImageButton
+            android:id="@+id/imageButtonRenkSecNotEkle"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/renk_sec"
+            app:srcCompat="@drawable/renk_sec" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextBaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/baslik"
+        android:inputType="textPersonName"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTarih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/tarih"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTakvim"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/takvim" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextSaat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/saat"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSaat"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/saat" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextNotEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="@string/not" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDosyaAcNotEkle"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/dosya_ac"
+        android:background="@drawable/dosya_ac"/>
+
+
+</LinearLayout>

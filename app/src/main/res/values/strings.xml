@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NoteLook</string>
+    <string name="baslik">Başlık</string>
+    <string name="tarih">Tarih</string>
+    <string name="saat">Saat</string>
+    <string name="not">Not</string>
+    <string name="hatirlatma">Hatırlatma</string>
+    <string name="oncelik">Öncelik</string>
+    <string name="notAra">Zamana göre not ara.</string>
+    <string name="dosyaSec">Dosya seç.</string>
+    <string name="resimSec">Resim seç.</string>
+    <string name="videoSec">Video seç.</string>
+    <string name="sesSec">Ses seç.</string>
+    <string name="dosyaSil">Dosya sil.</string>
+</resources>

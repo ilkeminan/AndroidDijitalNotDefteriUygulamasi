@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dosyaSec"
+        android:icon="@drawable/ic_attach_file_black_24dp"
+        android:title="@string/dosyaSec"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/resimSec"
+                android:icon="@drawable/ic_image_black_24dp"
+                android:title="@string/resimSec"/>
+            <item
+                android:id="@+id/videoSec"
+                android:icon="@drawable/ic_video_black_24dp"
+                android:title="@string/videoSec"/>
+            <item
+                android:id="@+id/sesSec"
+                android:icon="@drawable/ic_audio_black_24dp"
+                android:title="@string/sesSec"/>
+            <item
+                android:id="@+id/dosyaSil"
+                android:icon="@drawable/ic_delete_black_24dp"
+                android:title="@string/dosyaSil"/>
+        </menu>
+    </item>
+</menu>

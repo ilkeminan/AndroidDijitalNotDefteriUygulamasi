@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonNotAra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/not_ara"
+            android:background="@drawable/not_ara"/>
+
+        <EditText
+            android:id="@+id/editTextNotAra"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/notAra"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButtonOncelikliNotlar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/oncelikli_not_ara"
+            android:background="@drawable/oncelikli_not_ara"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageButton
+        android:id="@+id/imageButtonNotEkle"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/not_ekle"
+        app:srcCompat="@drawable/not_ekle" />
+
+</RelativeLayout>
